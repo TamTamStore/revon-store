@@ -87,3 +87,8 @@ details{border-bottom:1px solid var(--line);padding:20px 0}summary{cursor:pointe
   .product-image{height:380px}.benefit{min-height:auto}.how-image{height:430px}.how-grid h2,.order-copy h2{font-size:39px}
   .order-section{padding:70px 0}.order-form{padding:22px}.footer-inner{flex-direction:column;text-align:center}.offer-inner{flex-wrap:wrap;gap:8px;font-size:12px}
 }
+/* Fix hero image cropping */
+.hero-visual img{
+    object-fit: contain;
+    object-position: center;
+}
