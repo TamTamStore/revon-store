@@ -36,7 +36,7 @@ h1 em,h2 em{font-family:"Playfair Display",serif;color:var(--gold);font-style:no
 .hero-visual{position:relative;height:650px;display:flex;align-items:center;justify-content:center}
 .hero-visual .glow{position:absolute;width:430px;height:430px;background:#ead7b3;border-radius:50%;filter:blur(65px);opacity:.35}
 .hero-visual img{height:620px;width:430px;object-fit:contain;object-position:center;border-radius:18px;box-shadow:var(--shadow);position:relative}
-.floating-card{position:absolute;bottom:70px;left:0;background:#fff;padding:16px 22px;box-shadow:var(--shadow);border-right:4px solid var(--gold);min-width:190px display:none;}
+.floating-card{position:absolute;bottom:70px;left:0;background:#fff;padding:16px 22px;box-shadow:var(--shadow);border-right:4px solid var(--gold);min-width:190px display:none !important;}
 .floating-card span{font-size:11px;color:var(--gold);display:block}.floating-card strong{display:block;font-size:16px}.floating-card b{font-size:21px}
 .offer-strip{background:#eee2cb;color:var(--ink);padding:12px 0}
 .offer-inner{display:flex;align-items:center;justify-content:center;gap:25px;font-size:14px}
